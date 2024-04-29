@@ -1,0 +1,28 @@
+
+version: 2
+sources:
+  - name: raw
+    tables:
+      - name: nyc_taxi_trip
+
+
+
+#models:
+#  - name: monthly_total_passengers
+#    description: "get total passenger monthly"
+#    tables: taxi_tripdata
+#    columns:
+#      - name: id
+#        description: "The primary key for this table"
+#        tests:
+#          - unique
+#          - not_null
+
+#  - name: my_second_dbt_model
+#    description: "A starter dbt model"
+#    columns:
+#      - name: id
+#        description: "The primary key for this table"
+#        tests:
+#          - unique
+#          - not_null
